@@ -109,6 +109,14 @@ a{
     margin-left: 2rem;
 }
 
+/*---contenido principal---*/
+.contenido-principal{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 5rem;
+}
+
+
 
 
 /*<<<<MEDIA QUERY>>>>*/
