@@ -4,6 +4,7 @@
     --fuenteDos: 'PT Sans', sans-serif;
     --colorPrimario: #784d3c;
     --colorBlanco: #fff;
+    --colorGris: #e1e1e1;
     --colorNegro: #000;
 }
 /*Globales*/
@@ -70,6 +71,23 @@ a{
     text-align:center;
 }
 
+.boton{
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: var(--fuenteUno);
+}
+.boton--primario{
+    background-color: var(--colorNegro);
+    color: var(--colorBlanco);
+   
+}
+.boton--secundario{
+    background-color: var(--colorPrimario);
+    color: var(--colorBlanco);
+   
+}
 
 /*____INDEX____*/
 
@@ -116,6 +134,33 @@ a{
     column-gap: 5rem;
 }
 
+.main__entrada{
+    border-bottom: 1px solid var(--colorGris);
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+}
+.main__entrada:last-of-type{
+    border:none;
+}
+
+.taller__entrada{
+    border-bottom: 1px solid var(--colorGris);
+    padding-bottom: 2rem;
+}
+.entrada__titulo, .entrada__precio, .entrada__cupo{
+    font-weight: bold;
+}
+
+.letra--ligth{
+    font-weight: 400;
+}
+/*---footer---*/
+
+.footer{
+    background-color: var(--colorNegro);
+    padding-bottom: 2rem;
+}
+
 
 
 
@@ -136,5 +181,23 @@ a{
     .navegacion__enlace{
         margin: 0;
         margin-top: 1rem;
+    }
+}
+/*---contenido principal---*/
+@media(max-width: 728px) {
+    .contenido-principal{
+       grid: unset;
+    }
+    .main{
+        text-align: center;
+    }
+    .boton{
+        display: block;
+        text-align: center;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .aside{
+        text-align: center;
     }
 }
