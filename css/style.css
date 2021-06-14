@@ -2,7 +2,11 @@
 :root{
     --fuenteUno: 'Open Sans', sans-serif;
     --fuenteDos: 'PT Sans', sans-serif;
+    --colorPrimario: #784d3c;
+    --colorBlanco: #fff;
+    --colorNegro: #000;
 }
+/*Globales*/
 
 html{
     font-size: 62.5%;
@@ -13,5 +17,55 @@ html{
 }
 body{
     font-size: 16px;
+    font-family: var(--fuenteDos);
+    line-height: 2;
+}
+h1,h2,h3,h4{
     font-family: var(--fuenteUno);
+}
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3.5rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+h4{
+    font-size: 2.5rem;
+}
+
+p{
+    font-size: 2rem;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/*Utilidades*/
+
+.contenedor{
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
+.no-margin{
+    margin: 0;
+}
+.no-pading{
+    padding: 0;
+}
+
+.centrar-texto{
+    text-align:center;
 }
