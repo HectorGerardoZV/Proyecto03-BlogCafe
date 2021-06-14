@@ -161,7 +161,23 @@ a{
     padding-bottom: 2rem;
 }
 
+/*____NOSTROS____*/
+/*---mian--*/
 
+.main{
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.main__contenido{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3rem;
+}
+
+.contenido__texto{
+text-align: justify;
+}
 
 
 /*<<<<MEDIA QUERY>>>>*/
