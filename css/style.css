@@ -217,3 +217,14 @@ text-align: justify;
         text-align: center;
     }
 }
+/*____NOSOTROS____*/
+/*---main---*/
+@media(max-width: 900px) {
+    .main__contenido{
+        grid: unset;
+    }
+    .contenido__texto{
+        margin-top: 3rem;
+    }
+    
+}
