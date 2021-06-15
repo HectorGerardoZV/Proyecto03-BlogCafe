@@ -179,6 +179,22 @@ a{
 text-align: justify;
 }
 
+/*____CURSOS____*/
+/*---mian--*/
+.main-cursos{
+    margin-top: 5rem;
+}
+
+.curso{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 3rem;
+    margin-bottom: 3rem;
+    border-bottom: 1px solid var(--colorGris);
+    padding-bottom: 3rem;
+}
+
+
 
 /*<<<<MEDIA QUERY>>>>*/
 
@@ -227,4 +243,20 @@ text-align: justify;
         margin-top: 3rem;
     }
     
+}
+
+/*____CURSOS____*/
+/*---main---*/
+
+@media(max-width: 800px) {
+    .curso{
+        grid:unset;
+        text-align: center;
+        
+    }
+
+    .curso__imagen{
+        height: 60rem;
+        margin: 0 auto;
+    }
 }
