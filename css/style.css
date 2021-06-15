@@ -185,6 +185,24 @@ text-align: justify;
     margin-top: 5rem;
 }
 
+/*____ENTRADA DE BLOG____*/
+/*---mian--*/
+.entrada-blog{
+    display: grid;
+    grid-template-rows: 1fr ;
+}
+.entrada__img{
+    height: 70rem;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.entrada-blog{
+    text-align: justify;
+}
+
+
+
 .curso{
     display: grid;
     grid-template-columns: 1fr 2fr;
